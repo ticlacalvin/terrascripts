@@ -15,10 +15,10 @@ default = ["172.0.0.0/25", "172.0.0.128/25"]
 variable "availability_zones" {
 type = list(string)
 default = ["us-east-2a", "us-east-2b"]
-
+}
 variable "kubernetes_ami" {
 default = "ami-0960ab670c8bb45f3"
-  
+} 
 variable "master_instance_type" {
 default = "t2.medium"
 }
