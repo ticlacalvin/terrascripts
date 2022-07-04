@@ -11,7 +11,7 @@ resource "aws_internet_gateway" "kubernetes_vpc_igw" {
 vpc_id = aws_vpc.kubernetes.id
 tags = {
 Name = "kubernetes_vpc_igw"
-}.
+}
 }
 
 resource "aws_subnet" "kubernetes_subnets" {
@@ -54,7 +54,6 @@ tags = {
 Name = "kubernetes_Servers"
 Type = "kubernetes_Master"
 }
-
 }
 
 resource "aws_instance" "kubernetes_Workers" {
@@ -69,5 +68,4 @@ tags = {
 Name = "kubernetes_Servers"
 Type = "kubernetes_Worker"
 }
-
 }
