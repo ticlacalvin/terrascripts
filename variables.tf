@@ -21,7 +21,7 @@ default = "ami-0960ab670c8bb45f3"
   
 variable "master_instance_type" {
 default = "t2.medium"
-
+}
 variable "worker_instance_type" {
 default = "t2.micro"
 }
