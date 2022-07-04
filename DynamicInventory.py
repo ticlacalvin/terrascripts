@@ -1,4 +1,4 @@
-#!/bin/pthon
+#!/bin/python
 # Shebang Line Should Point Python Installation Path
 import pprint
 import boto3
