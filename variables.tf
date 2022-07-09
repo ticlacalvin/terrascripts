@@ -16,7 +16,7 @@ type = list(string)
 default = ["us-east-1a", "us-east-1b"]
 }
 variable "kubernetes_ami" {
-default = "ami-0960ab670c8bb45f3"
+default = "ami-0729e439b6769d6ab"
 } 
 variable "master_instance_type" {
 default = "t2.medium"
